@@ -1,0 +1,256 @@
+h1 {
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.navbar-brand {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+}
+
+
+
+.navbar-nav {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body {
+    background: linear-gradient(to bottom, rgb(252, 249, 61), rgb(247, 245, 247));
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+
+.card-body {
+    text-align: center;
+    border: #333;
+}
+
+h2 {
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+#video-container {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  #banner {
+  padding: 20px;
+  text-align: center;
+}
+
+.product {
+  display: inline-block;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  text-align: center;
+  width: 200px;
+}
+
+.product img {
+  max-width: 100%;
+  height: 200px;
+  width: 230px;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+}
+
+.container {
+  max-width: 800px;
+  margin: 20px auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    margin-top: 20px;
+}
+
+.section {
+  margin-bottom: 30px;
+}
+
+.section h2 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+}
+
+
+.main-content {
+  margin-left: 220px; 
+}
+
+.section p {
+  font-size: 16px;
+  color: #666;
+  line-height: 1.6;
+}
+
+.sidebar {
+  width: 200px;
+  position: sticky;
+  top: 20px;
+  background-color: #f0f0f0;
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+
+.section h2 .icon {
+  font-size: 32px;
+  margin-right: 10px;
+}
+@media screen and (max-width: 800px) {
+    .menu {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 60px;
+        left: 0%;
+        width: 100%;
+        background-color: #333;
+        cursor: pointer;
+}
+
+    .menu.show {
+        display:block;
+    }
+
+    .menu-icon {
+        displaY:block;
+    }
+    .banner-container img {
+        max-height: 200px;
+    }
+}
+
+.card {
+    max-width: 18rem;
+    margin-right: 10px; 
+  }
+
+  .category-card {
+    border-radius: 8px;
+    overflow: hidden;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    background-color: #fff;
+    transition: transform 0.3s ease;
+  }
+
+  .category-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .category-card .card-body {
+    display: flex;
+    align-items: center;
+  }
+  
+  .category-icon {
+    font-size: 36px;
+    margin-right: 20px;
+    color: #333;
+  }
+  
+  .category-name {
+    font-size: 18px;
+    color: #333;
+    font-weight: bold;
+  }
+
+
+  .product {
+    margin-bottom: 20px;
+  }
+
+  .category-card {
+    border: #333;
+  }
+
+ h5 {
+    display: inline-block;
+    margin: 10px;
+    padding: 1px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+    width: 500px;
+  }
+
+  .mission-vision-values {
+    background-color: #f0f0f0;
+    padding: 40px 0;
+}
+
+.benefits {
+    background-color: #fff;
+    padding: 40px 0;
+}
+
+.benefits .card {
+    height: 100%;
+}
+
+.benefits .card-body {
+    text-align: justify;
+}
+
+.card-header {
+    background-color: #f0f0f0;
+    border-bottom: 2px solid #ccc;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.icon {
+    margin-right: 10px;
+}
+
+.container {
+  text-align: center;
+}
+
+.category-card .card-body {
+  display: flex; 
+  align-items: center; 
+}
+
+.category-icon {
+  font-size: 1.5rem; 
+  margin-right: 5px; 
+}
+
+#contacts {
+  background-color: #f8f9fa;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+#contacts h3 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+#contacts p {
+  color: #666;
+  font-size: 18px;
+}
+
+#contacts .fa-envelope,
+#contacts .fa-phone {
+  color: #333;
+}
+
+#contacts .col-md-4 {
+  margin-bottom: 20px;
+}
